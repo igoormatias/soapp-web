@@ -19,12 +19,16 @@ height: 30px;`
 
 export const Eclipse = styled.img`
     position: relative;
-    top: -128px;
+    top: -40vh;
     height: 40vh;
 `
 
 export const ButtonContainer = styled.div `
     display: flex;
+    align-self: flex-start;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    
    
 `
 
@@ -32,10 +36,13 @@ export const ButtonBack = styled(FaAngleLeft)`
     width: 26px;
     height:26px;
     color: #0e0e0e;
-    align-items:flex-start;
+    
 `
 
 export const TitleContainer = styled.div`
+    display: flex;
+    align-self: flex-start;
+    margin-left: 15px;
    margin-bottom: 60px;
     
 `

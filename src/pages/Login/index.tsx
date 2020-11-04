@@ -5,6 +5,7 @@ import UserContainer from '../../components/Input/User'
 import MailContainer from '../../components/Input/Mail'
 import google from '../../assets/images/google.svg'
 import KeyContainer from '../../components/Input/Key'
+import ButtonLogin from '../../components/ButtonLogin'
 import {
     Container,
     TitleContainer,
@@ -45,6 +46,12 @@ function Login () {
                 <Gmail src={ google }/>
                 <Facebook />
             </IconsContainer>
+            <ButtonLogin
+                title="Entrar"
+                bg="#8C98FF"
+                id="login"
+                to="/login"
+            />
         </Container>
     )
 };
