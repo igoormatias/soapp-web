@@ -11,11 +11,11 @@ import {
     Title,ButtonContainer,
     ButtonBack,
     Eclipse, 
-    
     IconsContainer,
     Facebook,
     Gmail
 } from './style'
+import FullnameContainer from './components/FullnameContainer'
 
 function Register () {
     return (
@@ -32,7 +32,8 @@ function Register () {
                     Cadastrar
                 </Title>
             </TitleContainer>
-    
+
+            <FullnameContainer/>
             <UserContainer/>
             <MailContainer/>
             <KeyContainer/>

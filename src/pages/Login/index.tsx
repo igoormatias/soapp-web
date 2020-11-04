@@ -14,13 +14,16 @@ import {
     Title2 ,
     IconsContainer,
     Facebook,
-    Gmail
+    Gmail,
+    Header
 } from './style'
 
 function Login () {
     return (
         <Container>
-            <Eclipse src={ eclipses } alt="circles-eclipses" />
+            <Header><Eclipse src={ eclipses } alt="circles-eclipses" /></Header>
+            
+            
             <ButtonContainer>
                 <Link to="/" >
                     <ButtonBack />

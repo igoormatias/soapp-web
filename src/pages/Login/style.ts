@@ -14,25 +14,30 @@ export const Container = styled.div `
     height: 100vh;
 `
 
+export const Header = styled.div`
+height: 30px;`
+
 export const Eclipse = styled.img`
     position: relative;
-    top: -328px;
+    top: -128px;
+    height: 40vh;
 `
 
 export const ButtonContainer = styled.div `
     display: flex;
-    align-items:flex-start;
+   
 `
 
 export const ButtonBack = styled(FaAngleLeft)`
     width: 26px;
     height:26px;
     color: #0e0e0e;
+    align-items:flex-start;
 `
 
 export const TitleContainer = styled.div`
-    display: flex;
-    align-items:flex-start;
+   margin-bottom: 60px;
+    
 `
 
 export const Title = styled.text `
@@ -44,6 +49,7 @@ export const FormContainer = styled.div`
     display: flex;
     flex-direction:column;
     height: 30px;
+    margin-bottom: 260px;
 `
 
 export const Title2 = styled.text `
