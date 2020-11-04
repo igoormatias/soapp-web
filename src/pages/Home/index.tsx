@@ -7,8 +7,9 @@ import {
     Container,
     Eclipse,
     Logo,
-    Eclipse2
-} from './stye'
+    Eclipse2,
+    
+} from './style'
 
 function Home () {
     return (
@@ -19,11 +20,13 @@ function Home () {
                 title="Entrar"
                 bg="#8C98FF"
                 id="login"
+                to="/login"
             />
             <ButtonLogin
                 title="Cadastrar-se"
                 bg="#000"
                 id="sigup"
+                to="/register"
             />
             <Eclipse2 src={ eclipses2 } alt="circles-eclipses" />
         </Container>
