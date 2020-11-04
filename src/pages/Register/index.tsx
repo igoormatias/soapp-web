@@ -34,9 +34,9 @@ function Register () {
             </TitleContainer>
 
             <FullnameContainer/>
-            <UserContainer/>
-            <MailContainer/>
-            <KeyContainer/>
+            <UserContainer title="Usuário" />
+            <MailContainer title="E-mail" />
+            <KeyContainer title="Senha" />
 
             
             <IconsContainer>

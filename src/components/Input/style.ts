@@ -15,6 +15,15 @@ export const Container = styled.div`
 
     color: #3E3E3E;
 `
+export const Title = styled.strong`
+    align-self: flex-start;
+
+    margin-left: 30px;
+
+    font-size: 1rem;
+
+    color: #000;
+`
 
 export const IconContainer = styled.div`
     display: flex;

@@ -1,5 +1,5 @@
 import React from 'react'
-import { HiOutlineUsers } from 'react-icons/all'
+import { HiOutlineUsers } from 'react-icons/hi'
 import {
     Container,
     IconContainer

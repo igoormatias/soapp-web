@@ -2,17 +2,25 @@ import React from 'react'
 import { BiKey } from 'react-icons/bi'
 import {
     Container,
-    IconContainer
+    IconContainer,
+    Title
 } from '../style'
 
-const KeyContainer = () => {
+interface KeyContainerProps {
+    title: string;
+}
+
+const KeyContainer: React.FC<KeyContainerProps> = ({ title }) => {
     return (
-        <Container>
-            <IconContainer bg="#DDFBE6">
-                <BiKey/>
-            </IconContainer>
-            <input/>
-        </Container>
+        <>
+            <Title>{ title }</Title>
+            <Container>
+                <IconContainer bg="#DDFBE6">
+                    <BiKey/>
+                </IconContainer>
+                <input/>
+            </Container>
+        </>
     )
 }
 

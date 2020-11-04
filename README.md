@@ -1,10 +1,10 @@
 # 🧼 SOAPP | WEB
 
-## Authors: José, Igor, Matheus, Thiago
+## Authors: José, Igor, Matheus, Thiago, Fernando
 
 ## Version: 1.0
 
-## Descripition: Small business sales management application
+Small business sales management application
 
 created using:
 *Typescript

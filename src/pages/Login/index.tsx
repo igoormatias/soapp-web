@@ -24,7 +24,6 @@ function Login () {
         <Container>
             <Header><Eclipse src={ eclipses } alt="circles-eclipses" /></Header>
             
-            
             <ButtonContainer>
                 <Link to="/" >
                     <ButtonBack />
@@ -37,9 +36,9 @@ function Login () {
                 </Title>
             </TitleContainer>
     
-            <UserContainer/>
-            <MailContainer/>
-            <KeyContainer/>
+            <UserContainer title="Usuário" />
+            <MailContainer title="E-mail" />
+            <KeyContainer title="Senha" />
 
             <Title2> Esqueceu a senha? </Title2>
             <IconsContainer>

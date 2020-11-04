@@ -4,20 +4,28 @@ import {
 } from 'react-icons/cg'
 import {
     Container,
-    IconContainer
+    IconContainer,
+    Title
 } from '../style'
 
-const MailContainer: React.FC = () => {
+interface MailContainerPops {
+    title: string;
+}
+
+const MailContainer: React.FC<MailContainerPops> = ({ title }) => {
     return (
-        <Container onClick={ () => {
-            const input = document.getElementById('mail')
-            input?.focus()
-        } }>
-            <IconContainer bg="#FBF8DD">
-                <CgMail />
-            </IconContainer>
-            <input id="mail" />
-        </Container>
+        <>
+            <Title>{ title }</Title>
+            <Container onClick={ () => {
+                const input = document.getElementById('mail')
+                input?.focus()
+            } }>
+                <IconContainer bg="#FBF8DD">
+                    <CgMail />
+                </IconContainer>
+                <input id="mail" />
+            </Container>
+        </>
     )
 }
 
