@@ -30,11 +30,15 @@ export const Eclipse = styled.img`
 
 export const ButtonContainer = styled.div `
     display: flex;
+
     align-self: flex-start;
-    margin-left: 15px;
-    margin-bottom: 15px;
+
+    position: absolute;
+
+    top: 40px;
+
+    margin-left: 24px;
     
-   
 `
 
 export const ButtonBack = styled(FaAngleLeft)`
@@ -47,9 +51,9 @@ export const ButtonBack = styled(FaAngleLeft)`
 export const TitleContainer = styled.div`
     display: flex;
     align-self: flex-start;
-    margin-left: 15px;
-   margin-bottom: 60px;
-    
+    margin-left: 28px;
+    margin-top: 60px;
+    margin-bottom: 25px;
 `
 
 export const Title = styled.text `
