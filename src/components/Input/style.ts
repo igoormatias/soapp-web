@@ -8,7 +8,11 @@ export const Container = styled.div`
     border-bottom: 2px solid #707070;
 
     input {
+        width: 100%;
+
         border: 0;
+
+        margin-left: 8px;
     }
 
     font-size: 1.6rem;
@@ -19,6 +23,7 @@ export const Title = styled.strong`
     align-self: flex-start;
 
     margin-left: 30px;
+    margin-bottom: 19px;
 
     font-size: 1rem;
 
@@ -37,4 +42,6 @@ export const IconContainer = styled.div`
     background: ${ props => props.bg };
 
     border-radius: 8px;
+
+    margin-bottom: 7.1px;
 `

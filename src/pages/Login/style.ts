@@ -15,7 +15,12 @@ export const Container = styled.div `
 `
 
 export const Header = styled.div`
-height: 30px;`
+    position: absolute;
+
+    top: 30px;
+
+    height: 30px;
+`
 
 export const Eclipse = styled.img`
     position: relative;
@@ -60,6 +65,8 @@ export const FormContainer = styled.div`
 `
 
 export const Title2 = styled.text `
+    align-self: flex-start;
+    margin: 29px;
     font-size: 13px;
     font-weight: bold;
 `

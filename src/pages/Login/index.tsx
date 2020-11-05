@@ -37,7 +37,9 @@ function Login () {
             </TitleContainer>
     
             <UserContainer title="Usuário" />
+            <br/>
             <MailContainer title="E-mail" />
+            <br/>
             <KeyContainer title="Senha" />
 
             <Title2> Esqueceu a senha? </Title2>

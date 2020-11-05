@@ -18,7 +18,7 @@ const KeyContainer: React.FC<KeyContainerProps> = ({ title }) => {
                 <IconContainer bg="#DDFBE6">
                     <BiKey/>
                 </IconContainer>
-                <input/>
+                <input type="password" />
             </Container>
         </>
     )
