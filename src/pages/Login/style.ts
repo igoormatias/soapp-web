@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import {FaAngleLeft,FaFacebookF} from 'react-icons/fa'
+import { FaAngleLeft, FaFacebookF } from 'react-icons/fa'
 
 
 export const Container = styled.div `

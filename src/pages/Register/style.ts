@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import {FaAngleLeft,FaFacebookF} from 'react-icons/fa'
+import { FaAngleLeft, FaFacebookF } from 'react-icons/fa'
 
 
 export const Container = styled.div `
@@ -12,19 +12,29 @@ export const Container = styled.div `
 
     width: 100vw;
     height: 100vh;
+
+    strong {
+        margin-top: 17px;
+    }
 `
 
 export const Eclipse = styled.img`
-    position: relative;
-    top: -328px;
+    position: absolute;
+    top: -220px;
 `
 
 export const ButtonContainer = styled.div `
     display: flex;
+
     align-items:flex-start;
 `
 
 export const ButtonBack = styled(FaAngleLeft)`
+    position: absolute;
+
+    top: 22px;
+    left: 21px;
+
     width: 26px;
     height:26px;
     color: #0e0e0e;
@@ -32,7 +42,15 @@ export const ButtonBack = styled(FaAngleLeft)`
 
 export const TitleContainer = styled.div`
     display: flex;
-    align-items:flex-start;
+
+    align-self: flex-start;
+    
+    position: absolute;
+    top: 10px;
+
+    margin-left: 28px;
+    margin-top: 60px;
+    margin-bottom: 25px;
 `
 
 export const Title = styled.text `
@@ -53,8 +71,11 @@ export const Title2 = styled.text `
 
 export const IconsContainer = styled.div `
     display:flex;
+
     flex-direction:row;
     justify-content: space-around;
+
+    margin-top: 46px;
 `
 
 export const Facebook = styled(FaFacebookF)`
@@ -65,6 +86,6 @@ export const Facebook = styled(FaFacebookF)`
 `
 
 export const Gmail = styled.img `
-width: 36px;
-height:36px;
+    width: 36px;
+    height:36px;
 `

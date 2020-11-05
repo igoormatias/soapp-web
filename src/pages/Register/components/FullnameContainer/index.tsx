@@ -8,13 +8,13 @@ import {
 const FullnameContainer = () => {
     return (
         <Container onClick={ () => {
-            const input = document.getElementById('mail')
+            const input = document.getElementById('fullname')
             input?.focus()
         }}>
             <IconContainer bg="#DDEBFB">
                 <HiOutlineUsers/>
             </IconContainer>
-            <input/>
+            <input id="fullname" />
         </Container>
     )
 }

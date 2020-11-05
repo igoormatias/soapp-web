@@ -21,7 +21,7 @@ import ButtonLogin from '../../components/ButtonLogin'
 function Register () {
     return (
         <Container>
-            <Eclipse src={ eclipses } alt="circles-eclipses" />
+            <Eclipse src={ eclipses } alt="circles-eclipses" />''
             <ButtonContainer>
                 <Link to="/" >
                     <ButtonBack />

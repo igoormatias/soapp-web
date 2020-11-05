@@ -5,10 +5,14 @@ export const Container = styled.div`
 
     width: 301px;
     
+    margin-top: 190px;
+
     border-bottom: 2px solid #707070;
 
     input {
         border: 0;
+
+        margin-left: 4px;
     }
 
     font-size: 1.6rem;
@@ -24,6 +28,8 @@ export const IconContainer = styled.div`
 
     width: 42px;
     height: 37.9px;
+
+    margin-bottom: 7.1px;
 
     background: ${ props => props.bg };
 
