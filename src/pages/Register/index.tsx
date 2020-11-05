@@ -16,6 +16,7 @@ import {
     Gmail
 } from './style'
 import FullnameContainer from './components/FullnameContainer'
+import ButtonLogin from '../../components/ButtonLogin'
 
 function Register () {
     return (
@@ -37,12 +38,13 @@ function Register () {
             <UserContainer title="Usuário" />
             <MailContainer title="E-mail" />
             <KeyContainer title="Senha" />
+            <KeyContainer title="Digite a sua senha novamente" />
 
-            
             <IconsContainer>
                 <Gmail src={ google }/>
                 <Facebook />
             </IconsContainer>
+            <ButtonLogin title="Cadastrar" bg="#8F8CFF" />
         </Container>
     )
 };

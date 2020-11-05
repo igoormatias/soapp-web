@@ -23,7 +23,7 @@ const MailContainer: React.FC<MailContainerPops> = ({ title }) => {
                 <IconContainer bg="#FBF8DD">
                     <CgMail />
                 </IconContainer>
-                <input id="mail" />
+                <input type="email" id="mail" />
             </Container>
         </>
     )

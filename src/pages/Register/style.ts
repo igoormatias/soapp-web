@@ -52,7 +52,6 @@ export const Title2 = styled.text `
 `
 
 export const IconsContainer = styled.div `
-    
     display:flex;
     flex-direction:row;
     justify-content: space-around;
