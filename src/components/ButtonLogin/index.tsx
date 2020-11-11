@@ -9,12 +9,13 @@ interface ButtonLoginProps {
     bg?: string;
     id?: string;
     to?: any;
+    onCLick?: any;
 }
 
-const ButtonLogin: React.FC<ButtonLoginProps> = ({ title, bg, id ,to}) => {
+const ButtonLogin: React.FC<ButtonLoginProps> = ({ title, bg, id ,to,onCLick}) => {
     return (
         <Link to={ to }>
-            <Button id={ id } bg={ bg } >
+            <Button id={ id } bg={ bg } onClick={onCLick}>
                 { title }
             </Button>
         </Link>

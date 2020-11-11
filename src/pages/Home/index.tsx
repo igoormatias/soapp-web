@@ -21,6 +21,7 @@ function Home () {
                 bg="#8C98FF"
                 id="login"
                 to="/login"
+                
             />
             <ButtonLogin
                 title="Cadastrar-se"
