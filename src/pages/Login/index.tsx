@@ -72,7 +72,7 @@ const [user_password, setUser_password] = useState('')
                 bg="#8C98FF"
                 id="login"
                 to="/login"
-                onClick={handleLogin}
+                
             />
         </Container>
     )

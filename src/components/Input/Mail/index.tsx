@@ -10,12 +10,12 @@ import {
 
 interface MailContainerPops {
     title: string;
-    user_name: string,
-    setUser_name: string
+    user_name?: string,
+    setUser_name?: string
 }
 
 
-const MailContainer: React.FC<MailContainerPops> = ({ title }) => {('')
+const MailContainer: React.FC<MailContainerPops> = ({ title }) => {
 const [user_name, setUser_name] = useState('')
 
     function HandleMail() {

@@ -8,7 +8,7 @@ import {
 
 interface KeyContainerProps {
     title: string;
-    user_password: string;
+    user_password?: string;
 }
 
 const KeyContainer: React.FC<KeyContainerProps> = ({ title }) => {
