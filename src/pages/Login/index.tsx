@@ -1,11 +1,15 @@
-import React from 'react'
+import React, { useState, FormEvent, ChangeEvent } from "react";
 import { Link } from 'react-router-dom'
+
+import api from '../../services/api'
 import eclipses from '../../assets/images/eclipses.svg'
 import UserContainer from '../../components/Input/User'
 import MailContainer from '../../components/Input/Mail'
 import google from '../../assets/images/google.svg'
 import KeyContainer from '../../components/Input/Key'
 import ButtonLogin from '../../components/ButtonLogin'
+
+
 import {
     Container,
     TitleContainer,
@@ -19,7 +23,22 @@ import {
     Header
 } from './style'
 
+
 function Login () {
+    const [user_name, setUser_name] = useState('')
+const [user_password, setUser_password] = useState('')
+
+    const handleLogin = async(event: FormEvent) => {
+
+        const data = new FormData()
+    
+        data.append("user_name", user_name)
+        data.append("user_password", user_password)
+    
+        await api.post('/login', data)
+    
+        alert("Login efetuado com sucesso")
+    } 
     return (
         <Container>
             <Header><Eclipse src={ eclipses } alt="circles-eclipses" /></Header>
@@ -48,10 +67,12 @@ function Login () {
                 <Facebook />
             </IconsContainer>
             <ButtonLogin
+                
                 title="Entrar"
                 bg="#8C98FF"
                 id="login"
                 to="/login"
+                onClick={handleLogin}
             />
         </Container>
     )
